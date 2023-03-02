@@ -13,7 +13,6 @@ class App extends Component {
 
   handleBtnClick = event => {
     const stateValueToUpdate = event.target.innerText.toLowerCase();
-    console.log(stateValueToUpdate);
     this.setState(prevState => ({
       [stateValueToUpdate]: prevState[stateValueToUpdate] + 1,
     }));
