@@ -1,0 +1,11 @@
+.section {
+  width: 20%;
+}
+
+.section__title {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 28px;
+
+  color: #2739c3;
+}
